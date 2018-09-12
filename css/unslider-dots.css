@@ -1,0 +1,23 @@
+/**
+*   Here's where everything gets included. You don't need
+*   to change anything here, and doing so might break
+*   stuff. Here be dragons and all that.
+*/
+/**
+*   Default variables
+*
+*   While these can be set with JavaScript, it's probably
+*   better and faster to just set them here, compile to
+*   CSS and include that instead to use some of that
+*   hardware-accelerated goodness.
+*/
+.unslider-nav {position: absolute;margin-top: -30px;left: 0;right: 0;z-index: 10;}
+.unslider-nav ol {list-style: none;text-align: center;}
+/*.unslider-nav ol li {display: inline-block;width: 14px;height: 14px;margin: 0 4px;background: transparent;overflow: hidden;text-indent: -999em;cursor: pointer;background: #fff;border-radius: 50%;}*/
+.unslider-nav ol li.unslider-active {background: #ed7020;;cursor: default;}
+
+.mb1 .unslider-nav {width: 220px;min-width: 220px;height: 12px;margin: 0 auto;padding: 0;position: inherit;overflow: hidden;position: absolute;z-index: 200;margin-top: -62px;}
+.mb1 .unslider-nav ol {width: 220px;list-style: none;text-align: center; margin:0 auto;}
+.mb1 .unslider-nav ol li {display: inline-block;width: 12px;height: 12px;line-height: 12px;margin: 0 7px;overflow: hidden;text-indent: inherit;cursor: pointer; border-radius: 0;color:#fff;  padding-top:10px; background:url(../images/unslider.png) center top no-repeat; text-indent:222px;}
+.mb1 .unslider-nav ol li.unslider-active {background: url(../images/unslider.png) center -20px no-repeat;cursor: default;}/* transition:background-position 3s linear; */
+.mb1 .unslider-nav ol li.disange {margin-right: 46px;}

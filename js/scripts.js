@@ -19,7 +19,7 @@ $(document).ready(function () {
         }
     }, function () {
         if ($(window).scrollTop() != 0) {
-            $("#header").animate({"top": "-76", "height": "76"}, 10);
+            // $("#header").animate({"top": "-76", "height": "76"}, 10);
         }
     });
 
@@ -72,7 +72,8 @@ $(function () {
         var header = $('#wrapper');
         if (header.offset().top - document.documentElement.scrollTop - document.body.scrollTop < -76) {
             $("#header").animate({"top": "0", "height": "76"}, 10);
-            $('#gotop').fadeIn(300);
+            // $('#gotop').fadeIn(300);
+            $('#gotop').fadeOut(300);
         } else {
             $('#header').animate({"top": "0", "height": "76"}, 10);
             $('#gotop').fadeOut(300);

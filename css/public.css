@@ -1,0 +1,42 @@
+@charset "gb2312";
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {margin: 0;padding: 0;}
+html, body {line-height: 160%; min-width:1200px; background:#fff;}
+img {border: 0 none;vertical-align: middle;}
+ul, li {list-style-type: none;}
+h1, h2, h3, h4, h5, h6 {font-size: 16px; font-weight:normal;}
+body, input, select, button, textarea {font-size: 14px; font-family:"cn2", "Î¢ÈíÑÅºÚ", "ËÎÌå", Arial;}
+button {cursor: pointer;}
+i, em, cite {font-style: normal;}
+a, a:link {color: #222;text-decoration: none;}
+a:visited {}
+a:active, a:hover {text-decoration: none; }
+a:focus {outline: none;}
+
+.clear { display:none;}/*diplay: block!important;float: none!important;clear: both;overflow: hidden;width: auto!important;height: 0!important;margin: 0 auto!important;padding: 0!important;font-size: 0;line-height: 0;*/
+.more {float: right;}
+.more a {font-weight: normal;font-size: 14px;}
+.fl {display: inline;float: left;}
+.fr {display: inline;float: right;}
+.w100 { width:100%; height:auto; overflow:hidden;}
+.none{ display:none;}
+.block{ display:block;}
+
+
+.box{ width:1200px; height:auto; overflow:hidden; margin:0 auto; min-width:1200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

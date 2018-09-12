@@ -1,0 +1,87 @@
+@media only screen  and (min-width: 1200px) and (max-width: 1366px){
+
+
+}
+
+
+@media only screen  and (max-width: 1199px){
+
+html , body{ min-width:1220px;}
+.w100{ max-width:1200px; margin-left:auto; margin-right:auto;}
+.wrapper { min-width:1220px;}
+
+.promenu { margin-left:10px;}
+
+/*.aboutl2cnt{position:inherit;}*/
+
+.picScroll-left .bd ul li .pic a { background-position: center top !important; background-attachment:inherit !important;}
+.prodt1{ background:#eeeeee;}
+
+.left_2 { display:none;}
+
+.bgefefef{ min-width:1200px; width:100% !important; left:inherit !important;}
+
+.banneri .unslider-fade .unslider-wrap li { background-attachment: scroll;}
+.proinfocs .h950{ background-attachment: scroll;}
+.life5{ background-attachment: scroll;}
+
+.picScroll .bd ul li { margin:0 !important;}
+
+.caselisti li.casei17 , 
+.caselisti li.casei18 , 
+.caselisti li.casei19
+{ display: block !important;}
+
+/* about */
+.aboutl11 p , 
+.aboutl21 , 
+.aboutl911 , 
+.aboutl9 .ttl , 
+.main_life .info p , 
+.life2 p , 
+.life4 h3.listtitle , 
+.life4 .listcontent p , 
+.life5 p , 
+#contact .ct1 , 
+.newstop
+
+
+{ margin-left:6%;}
+
+.ttli1 , 
+.zpttl
+{ margin-left:20px;}
+
+#contact .ct3 { margin-right:6%; width:370px;}
+
+.zpttl2 { text-indent:5%;}
+.zpcnt21 { width:422px; margin-left:6%;}
+.zpcnt22 { width:390px;}
+.zpcnt23 { width:px; margin-right:3%;}
+
+
+
+/* head */
+
+.logo { margin-left:30px; }
+.menu { margin-right:30px;}
+
+/* foot */
+.foot1 , .foot2 { width:1100px; min-width:1100px;}
+.mapframebg { height:100% !important; min-width:1220px !important;}
+
+}
+
+
+
+/*
+
+wrapper
+
+.box{ width:1180px; min-width:1180px; margin-left:auto; margin-right:auto;}
+.caselisti li { margin-right:17px;}
+
+
+
+
+*/
