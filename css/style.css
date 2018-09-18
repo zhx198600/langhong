@@ -84,29 +84,29 @@ img{margin:0;padding:0;border:0}
 /*.ctcnt1 .span5{background:url(../images/ct25.png) left 3px no-repeat;padding-left:26px}*/
 .ctcnt2{padding-top:120px}
 .position,.position h3,.position h3 a{color:#4d4d4d}
-#newslist{padding-top:20px}
+div #newslist{padding-top:0px;width: 1000px;margin: 0px auto;min-width: 1000px;}
 .nlttl{/*background:url(../images/p585x63.png) left bottom no-repeat;*/padding-bottom:10px}
 .nlttl .nlttl1{font-size:40px;color:#999;line-height:40px}
 .nlttl h2{font-size:26px;color:#BFD6CC;line-height:50px}
-.postlist_l{width:550px}
-.postlist_r{width:530px}
+.postlist_l{width:654px}
+.postlist_r{width:330px}
 .postlist{height:auto;overflow:hidden;padding-left:1px;/*background:url(../images/bg_newslist.gif) left top repeat-y;*/padding-top:20px}
-.postlist li{width:100%;height:auto;color:#333;font-size:14px;overflow:hidden;margin-bottom:60px;transition:background .3s linear;border-bottom:1px solid #aeaeae;padding-bottom:10px}
+.postlist li{width:100%;height:auto;color:#333;font-size:14px;overflow:hidden;margin-bottom:20px;transition:background .3s linear;border-bottom:1px solid #ccc;padding-bottom:10px}
 .postlist .postlistw{height:auto;overflow:hidden;transition:background-position .3s linear}
-.postlist li a.pic{width:550px;height:280px;overflow:hidden;text-align:center;display:block}
-.postlist li .pic img{width:550px;height:280px;cursor:pointer;transition:all .6s}
+.postlist li a.pic{width:650px;height:280px;overflow:hidden;text-align:center;display:block;border: #ccc solid 1px;padding: 1px;}
+.postlist li .pic img{width:650px;height:280px;cursor:pointer;transition:all .6s;}
 .postlist li .pic img:hover{transform:scale(1.2)}
 .postlist li .data{width:100%;height:20px;overflow:hidden;padding:20px 0}
 .postlist li a{color:#333}
-.postlist li .ttl{line-height:32px;display:block;padding:45px 0 20px 0}
-.postlist li a h3{color:#333;font-size:24px;line-height:32px;font-family:"΢���ź�","����",Arial}
+.postlist li .ttl{line-height:32px;display:block;padding:15px 0 0px 0}
+.postlist li a h3{color:#333;font-size:16px;line-height:32px;font-family:"΢���ź�","����",Arial;font-weight: bold;}
 .postlist li a h3:hover{color:#000}
-.postlist li p{font-size:16px;color:#333}
-.postlist li p.ckqb{text-align:right;padding-top:10px}
+.postlist li p{font-size:14px;color:#666}
+.postlist li p.ckqb{text-align:right;padding-top:10px;display: none;}
 .postlist li p.ckqb a{line-height:20px;color:#999;font-size:14px}
-.postlist li .newsidate{font-family:Arial,Helvetica;font-size:16px;line-height:16px;padding-left:15px;/*background:url(../images/i_04.png) left 1px no-repeat*/}
-.postlist_r li a h3{font-size:16px;line-height:36px}
-.postlist_r li{border-bottom:none;padding-bottom:40px}
+.postlist li .newsidate{font-family:Arial,Helvetica;font-size:14px;color:#999;line-height:16px;padding-left:15px;/*background:url(../images/i_04.png) left 1px no-repeat*/}
+.postlist_r li a h3{font-size:14px;line-height:36px;font-weight: normal;}
+.postlist_r li{border-bottom:none;border-bottom: #e3e1e1 dashed 1px}
 .banner_news{margin-top:90px;/*background:url(../images/line1.jpg) left top no-repeat;*/font-size:48px;line-height:54px;padding:20px 0 0 0}
 .goback_news{width:160px;height:36px;line-height:36px;border:1px solid #333;text-align:center;display:block;float:right;font-size:14px;letter-spacing:2px}
 .banner_about{height:170px;background:url(../images/about_03.jpg) center 42px no-repeat}
@@ -364,9 +364,9 @@ to{background-position:0 100%}
 .banner2_cnt{height:44px;line-height:36px;font-family:bentonsans-thin,arial;color:#4d4d4d;font-size:12px;background:url(../images/p20x1.jpg) left 30px no-repeat}
 .caselisti li{width:382px;float:left;display:inline;height:auto;overflow:hidden;margin:0px 10px; margin-bottom:20px;box-shadow: 3px 3px 5px #ccc;border-radius: 3px;}
 .caselisti li.casei112,.caselisti li.casei115,.caselisti li.casei118,.caselisti li.casei121,.caselisti li.casei124,.caselisti li.casei127,.caselisti li.casei13,.caselisti li.casei130,.caselisti li.casei133,.caselisti li.casei136,.caselisti li.casei139,.caselisti li.casei142,.caselisti li.casei145,.caselisti li.casei148,.caselisti li.casei16,.caselisti li.casei19{margin-right:0}
-.caselisti li .a_pic{width:312px;height:240px;overflow:hidden;display:inline-table}
+.caselisti li .a_pic{width:312px;height:210px;overflow:hidden;display:inline-table}
 .caselisti li a.a_text{width:312px;height:70px;display:block;overflow:hidden}
-.caselisti li img{width:312px;height:240px;transition:all .6s}
+.caselisti li img{width:312px;height:210px;transition:all .6s}
 .caselisti li img:hover{transform:scale(1.2)}
 .caselisti li h3{font-size:16px;color:#333;line-height:40px;border-bottom: #e6e4e4 solid 1px;padding: 0px 10px;text-align: center;}
 .caselisti li h4{width:100%;height:30px;line-height:30px;line-height:30px;font-size:12px;word-wrap:break-word;color:#666;padding: 0px 10px;box-sizing: border-box;}

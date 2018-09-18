@@ -48,14 +48,14 @@
 .pfont3{font-size:48px;font-weight:700;padding:20px 0}
 .pro1{height:800px;min-width:1200px;background:url([news:P_img]) center top no-repeat fixed}
 .pro2{padding:50px 0;min-width:1200px}
-.pro2 .procnt{width:950px;min-width:950px;height:auto;overflow:hidden}
-.pro2 .procnt h1.ttl{font-size:24px;line-height:36px;padding:50px 0;@background:url(../images/line3.jpg) left top no-repeat}
+.pro2 .procnt{min-width:950px;height:auto;overflow:hidden}
+.pro2 .procnt h1.ttl{font-size:24px;line-height:36px;padding:20px 0;@background:url(../images/line3.jpg) left top no-repeat}
 .pro2 .procnt .proinfo{padding:0 0 40px 0;min-height:142px}
 .pro2 .procnt .proinfo img{width:auto;max-width:800px;margin-top:30px}
 .pro2 .procnt .proinfo p{font-size:14px;line-height:1.6;margin-bottom:5px}
 .pro2 .procnt .proinfo .pdline5{width:100%;height:1px;overflow:hidden;background:url(../images/line5.jpg) left top no-repeat;margin:26px 0}
 .pro2 .procnt .proinfo .pdencnt p{font-size:16px}
-.pro2 .proriqi{width:170px;height:auto;overflow:hidden;position:absolute;left:50%;margin-left:360px;background:#fff;padding-left:70px}
+.pro2 .proriqi{width:170px;height:auto;overflow:hidden;position:absolute;left:50%;margin-left:360px;background:#fff;padding-left:70px;display: none;}
 .pro2 .proriqi .p1{font-size:14px;line-height:16px}
 .pro2 .proriqi .p2{font-size:36px;line-height:40px;padding:17px 0 10px 0;font-family:bentonsans-thin}
 .pro2 .proriqi .p3{font-size:px;line-height:px}
@@ -70,7 +70,7 @@
 .prodt1cntmore{font-size:24px;line-height:56px;background:url(../images/line1.jpg) right top no-repeat;text-align:right}
 .prodt1cnt2,.prodt1cnt3{padding:60px 0 0 0}
 .prodt1cnt2 img,.prodt1cnt3 img{margin-bottom:20px;margin-top:10px}
-.imginfo img{margin-bottom:20px;margin-top:10px}
+.imginfo img{margin-bottom:20px;margin-top:10px;border: #ccc solid 1px; padding: 1px;}
 .w400{width:320px;padding-right:80px}
 .w400 .p1{font-size:36px;line-height:100px}
 .w400 .p2 p{line-height:1.4;margin:0}
@@ -106,3 +106,14 @@
 .slideBoxprodetail .next:hover,.slideBoxprodetail .prev:hover{filter:alpha(opacity=100);opacity:1}
 .slideBoxprodetail .prevStop{display:none}
 .slideBoxprodetail .nextStop{display:none}
+.pro2 .pro_title{text-align: center}
+.pro2 .pro_title .procnt h1.ttl{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+}
+.pro2 .pro_title .date{
+    color: #ccc;
+    font-size: 12px;
+}

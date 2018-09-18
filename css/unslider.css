@@ -43,7 +43,7 @@
 
 
 /* ר���� */
-.postlistli1 , .postlistli2 , .postlistli3 , .postlistli4 , .postlistli5 , .postlistli6 { height:850px; border-top:1px dashed #ccc; padding-top:50px;}
+.postlistli1 , .postlistli2 , .postlistli3 , .postlistli4 , .postlistli5 , .postlistli6 { height:850px; border-top:1px dashed #ccc; padding-top:0px;}
 .postlistli1 { border-top:none;}
 .zmdd1 , .zmdd2 , .zmdd3 , .zmdd4 , .zmdd5 , .zmdd6 { height:480px; width:900px; left:50%; margin-left:-450px;}
 .unslider-arrow1 , .unslider-arrow2 , .unslider-arrow3 , .unslider-arrow4 , .unslider-arrow5 , .unslider-arrow6 {position: absolute;left: 0px;z-index: 10;cursor: pointer; width:45px; height:100px; background-image:url(sprite2.png); margin-top:-300px;}
