@@ -288,7 +288,7 @@ a.goi:hover{background:url(../images/p6x10.png) 20px 12px no-repeat #333}
 .menu_btm a{color:#fff}
 .menu_btm a:hover{cursor: default}
 .menu_btm2{padding-top:10px}
-.menu-item{width:340px;float:left;display:inline;text-align:left;height:auto;overflow:hidden;margin-right: 30px;}
+.menu-item{width:300px;float:left;display:inline;text-align:left;height:auto;overflow:hidden;margin-right: 20px;}
 .menu-item a{@font-size:20px;font-size:16px;line-height:1.5;font-family:en4;font-weight:100;}
 .menu-item2 a{@font-size:12px;font-size:12px;line-height:22px;padding-bottom:0;font-family:cn2}
 /*a.menu-item1{font-size:16px;line-height:60px;display:block;text-align:center;border-bottom:1px solid grey;padding:10px 60px 0 60px}*/

@@ -116,4 +116,5 @@
 .pro2 .pro_title .date{
     color: #ccc;
     font-size: 12px;
+    display: none;
 }
